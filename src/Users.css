@@ -1,0 +1,37 @@
+.stanComponent {
+    border: 2px solid black;
+    padding: 20px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: cadetblue;
+}
+
+.listUsers {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 30px;
+    background-color: aquamarine;
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+
+}
+
+.userData {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+ .delate {
+    position: absolute;
+    right: 0;
+    top: 5px;
+    color: black;
+    cursor: pointer;
+    transition: 0.8s;
+}
+
+  .delate:hover {
+    color: brown;
+}
